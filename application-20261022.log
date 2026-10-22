@@ -1,0 +1,98 @@
+2026-10-22 09:08:58.570 [main] DEBUG pruebasFicheros.repositories.RepositorioPersonaTXT - src\resources\alumnos.txt (El sistema no puede encontrar la ruta especificada)
+2026-10-22 09:08:58.572 [main] DEBUG pruebasFicheros.controller.PersonaController - []
+2026-10-22 09:09:12.260 [main] DEBUG pruebasFicheros.controller.PersonaController - [
+Alumno: Pepe, 
+Notas: [1.0, 3.5, 7.7], 
+Alumno: Marcos, 
+Notas: [2.0], 
+Alumno: Candela, 
+Notas: [10.0, 11.1]]
+2026-10-22 09:09:52.678 [main] DEBUG pruebasFicheros.controller.PersonaController - [
+Alumno: Pepe, 
+Notas: [1.0, 3.5, 7.7], 
+Alumno: Marcos, 
+Notas: [2.0], 
+Alumno: Candela, 
+Notas: [10.0, 11.1]]
+2026-10-22 09:09:52.680 [main] DEBUG pruebasFicheros.controller.PersonaController - [
+Alumno: Pepe, 
+Notas: [1.0, 3.5, 7.7], 
+Alumno: Marcos, 
+Notas: [2.0], 
+Alumno: Candela, 
+Notas: [10.0, 11.1]]
+2026-10-22 09:14:11.047 [main] DEBUG pruebasFicheros.controller.PersonaController - [
+Alumno: Juana, 
+Notas: [2.5, 10.0, 6.1], 
+Alumno: Pepe, 
+Notas: [6.5, 7.0, 4.1, 6.7]]
+2026-10-22 09:14:11.050 [main] DEBUG pruebasFicheros.controller.PersonaController - -----------------------------------------------
+2026-10-22 09:14:11.051 [main] DEBUG pruebasFicheros.controller.PersonaController - [
+Alumno: Juana, 
+Notas: [2.5, 10.0, 6.1]]
+2026-10-22 09:14:11.051 [main] DEBUG pruebasFicheros.controller.PersonaController - -----------------------------------------------
+2026-10-22 09:15:08.723 [main] DEBUG pruebasFicheros.controller.PersonaController - [
+Alumno: Juana, 
+Notas: [2.5, 10.0, 6.1], 
+Alumno: Pepe, 
+Notas: [7.0, 7.0, 8.1], 
+Alumno: Carlitos, 
+Notas: [6.5, 7.0, 4.1, 6.7]]
+2026-10-22 09:15:08.726 [main] DEBUG pruebasFicheros.controller.PersonaController - -----------------------------------------------
+2026-10-22 09:15:08.727 [main] DEBUG pruebasFicheros.controller.PersonaController - [
+Alumno: Juana, 
+Notas: [2.5, 10.0, 6.1], 
+Alumno: Carlitos, 
+Notas: [10.0, 10.0, 10.0]]
+2026-10-22 09:15:08.727 [main] DEBUG pruebasFicheros.controller.PersonaController - -----------------------------------------------
+2026-10-22 09:15:35.154 [main] DEBUG pruebasFicheros.controller.PersonaController - [
+Alumno: Juana, 
+Notas: [2.5, 10.0, 6.1], 
+Alumno: Pepe, 
+Notas: [7.0, 7.0, 8.1], 
+Alumno: Carlitos, 
+Notas: [6.5, 7.0, 4.1, 6.7]]
+2026-10-22 09:15:35.157 [main] DEBUG pruebasFicheros.controller.PersonaController - 
+-----------------------------------------------
+
+2026-10-22 09:15:35.159 [main] DEBUG pruebasFicheros.controller.PersonaController - [
+Alumno: Juana, 
+Notas: [2.5, 10.0, 6.1], 
+Alumno: Carlitos, 
+Notas: [10.0, 10.0, 10.0]]
+2026-10-22 09:15:35.159 [main] DEBUG pruebasFicheros.controller.PersonaController - 
+-----------------------------------------------
+
+2026-10-22 09:16:03.892 [main] DEBUG pruebasFicheros.controller.PersonaController - [
+Alumno: Juana, 
+Notas: [2.5, 10.0, 6.1], 
+Alumno: Pepe, 
+Notas: [7.0, 7.0, 8.1], 
+Alumno: Carlitos, 
+Notas: [6.5, 7.0, 4.1, 6.7]]
+2026-10-22 09:16:03.894 [main] DEBUG pruebasFicheros.controller.PersonaController - 
+-----------------------------------------------
+2026-10-22 09:16:03.896 [main] DEBUG pruebasFicheros.controller.PersonaController - [
+Alumno: Juana, 
+Notas: [2.5, 10.0, 6.1], 
+Alumno: Carlitos, 
+Notas: [10.0, 10.0, 10.0]]
+2026-10-22 09:16:03.896 [main] DEBUG pruebasFicheros.controller.PersonaController - 
+-----------------------------------------------
+2026-10-22 09:17:12.469 [main] DEBUG pruebasFicheros.controller.PersonaController - [
+Alumno: Juana, 
+Notas: [2.5, 10.0, 6.1], 
+Alumno: Pepe, 
+Notas: [7.0, 7.0, 8.1], 
+Alumno: Carlitos, 
+Notas: [6.5, 7.0, 4.1, 6.7]]
+2026-10-22 09:17:12.471 [main] DEBUG pruebasFicheros.controller.PersonaController - 
+-----------------------------------------------
+2026-10-22 09:17:12.473 [main] DEBUG pruebasFicheros.controller.PersonaController - [
+Alumno: Juana, 
+Notas: [2.5, 10.0, 6.1], 
+Alumno: Carlitos, 
+Notas: [10.0, 10.0, 10.0]]
+2026-10-22 09:17:12.473 [main] DEBUG pruebasFicheros.controller.PersonaController - 
+-----------------------------------------------
+2026-10-22 09:17:12.473 [main] DEBUG pruebasFicheros.controller.PersonaController - true

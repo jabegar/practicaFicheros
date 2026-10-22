@@ -1,0 +1,4 @@
+Nombre    Nota1 Nota2 Nota3 Nota4 Nota5 Nota6 Nota7 
+Pepe        1.00  3.50  7.70
+Marcos      2.00
+Candela    10.00 11.10

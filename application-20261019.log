@@ -1,0 +1,209 @@
+2026-10-19 10:15:38.074 [main] DEBUG pruebasFicheros.controller.LeerNotas - Persona [nombre=Pepe, notas=[]]
+2026-10-19 10:15:38.076 [main] DEBUG pruebasFicheros.controller.LeerNotas - Persona [nombre=1.0, notas=[]]
+2026-10-19 10:15:38.077 [main] DEBUG pruebasFicheros.controller.LeerNotas - Persona [nombre=3.5, notas=[]]
+2026-10-19 10:15:38.077 [main] DEBUG pruebasFicheros.controller.LeerNotas - Persona [nombre=7.7, notas=[]]
+2026-10-19 10:15:38.077 [main] DEBUG pruebasFicheros.controller.LeerNotas - Persona [nombre=Marcos, notas=[2.0]]
+2026-10-19 10:15:38.077 [main] DEBUG pruebasFicheros.controller.LeerNotas - Persona [nombre=Candela, notas=[]]
+2026-10-19 10:15:38.077 [main] DEBUG pruebasFicheros.controller.LeerNotas - Persona [nombre=10.0, notas=[]]
+2026-10-19 10:15:38.077 [main] DEBUG pruebasFicheros.controller.LeerNotas - Persona [nombre=11.1, notas=[]]
+2026-10-19 10:16:57.167 [main] DEBUG pruebasFicheros.controller.LeerNotas - Persona [nombre=Pepe, notas=[1.0, 3.5, 7.7]]
+2026-10-19 10:16:57.169 [main] DEBUG pruebasFicheros.controller.LeerNotas - Persona [nombre=Marcos, notas=[2.0]]
+2026-10-19 10:16:57.169 [main] DEBUG pruebasFicheros.controller.LeerNotas - Persona [nombre=Candela, notas=[10.0, 11.1]]
+2026-10-19 10:23:26.263 [main] DEBUG pruebasFicheros.controller.LeerNotas - Alumno: Pepe, 
+Notas: [1.0, 3.5, 7.7]
+2026-10-19 10:23:26.266 [main] DEBUG pruebasFicheros.controller.LeerNotas - Alumno: Marcos, 
+Notas: [2.0]
+2026-10-19 10:23:26.266 [main] DEBUG pruebasFicheros.controller.LeerNotas - Alumno: Candela, 
+Notas: [10.0, 11.1]
+2026-10-19 10:23:36.646 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Pepe, 
+Notas: [1.0, 3.5, 7.7]
+2026-10-19 10:23:36.648 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Marcos, 
+Notas: [2.0]
+2026-10-19 10:23:36.648 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Candela, 
+Notas: [10.0, 11.1]
+2026-10-19 10:30:26.904 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Pepe, 
+Notas: [1.0, 3.5, 7.7]
+2026-10-19 10:30:26.907 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: 
+Marcos, 
+Notas: []
+2026-10-19 10:30:26.907 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: 2
+Candela, 
+Notas: [10.0, 11.1]
+2026-10-19 10:31:44.726 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Pepe, 
+Notas: [1.0, 3.5, 7.7]
+2026-10-19 10:31:44.728 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: 
+Marcos, 
+Notas: []
+2026-10-19 10:31:44.728 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: 2
+Candela, 
+Notas: [10.0, 11.1]
+2026-10-19 10:32:07.738 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Pepe, 
+Notas: [1.0, 3.5, 7.7]
+2026-10-19 10:32:07.740 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: 
+Marcos, 
+Notas: [2.0]
+2026-10-19 10:32:07.740 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: 
+Candela, 
+Notas: [10.0, 11.1]
+2026-10-19 10:44:26.018 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Pepe,1.0,3.5,7.7,, 
+Notas: []
+2026-10-19 10:44:26.020 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Marcos,2,, 
+Notas: []
+2026-10-19 10:44:26.020 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Candela,10.0,11.1, 
+Notas: []
+2026-10-19 10:45:06.469 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Pepe, 
+Notas: [1.0, 3.5, 7.7]
+2026-10-19 10:45:06.472 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Marcos, 
+Notas: [2.0]
+2026-10-19 10:45:06.472 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Candela, 
+Notas: [10.0, 11.1]
+2026-10-19 10:46:21.432 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Pepe, 
+Notas: [1.0, 3.5, 7.7]
+2026-10-19 10:46:21.434 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Marcos, 
+Notas: [2.0]
+2026-10-19 10:46:21.434 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Candela, 
+Notas: [10.0, 11.1]
+2026-10-19 10:46:45.105 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Pepe, 
+Notas: [1.0, 3.5, 7.7]
+2026-10-19 10:46:45.107 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Marcos, 
+Notas: [2.0]
+2026-10-19 10:46:45.107 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Candela, 
+Notas: [10.0, 11.1]
+2026-10-19 10:47:25.948 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Pepe, 
+Notas: [1.0, 3.5, 7.7]
+2026-10-19 10:47:25.951 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Marcos, 
+Notas: [2.0]
+2026-10-19 10:47:25.951 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Candela, 
+Notas: [10.0, 11.1]
+2026-10-19 10:47:40.359 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Pepe, 
+Notas: [1.0, 3.5, 7.7]
+2026-10-19 10:47:40.362 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Marcos, 
+Notas: [2.0]
+2026-10-19 10:47:40.363 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Candela, 
+Notas: [10.0, 11.1]
+2026-10-19 11:51:14.750 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Pepe, 
+Notas: [1.0, 3.5, 7.7]
+2026-10-19 11:51:14.752 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Marcos, 
+Notas: [2.0]
+2026-10-19 11:51:14.752 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Candela, 
+Notas: [10.0, 11.1]
+2026-10-19 11:52:13.099 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Pepe, 
+Notas: [1.0, 3.5, 7.7]
+2026-10-19 11:52:13.101 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Marcos, 
+Notas: [2.0]
+2026-10-19 11:52:13.101 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Candela, 
+Notas: [10.0, 11.1]
+2026-10-19 11:53:32.443 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Pepe, 
+Notas: [1.0, 3.5, 7.7]
+2026-10-19 11:53:32.445 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Marcos, 
+Notas: [2.0]
+2026-10-19 11:53:32.445 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Candela, 
+Notas: [10.0, 11.1]
+2026-10-19 11:54:28.850 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Nota1, 
+Notas: []
+2026-10-19 11:54:28.852 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Nota2, 
+Notas: []
+2026-10-19 11:54:28.852 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Nota3, 
+Notas: []
+2026-10-19 11:54:28.852 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Nota4, 
+Notas: []
+2026-10-19 11:54:28.852 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Nota5, 
+Notas: []
+2026-10-19 11:54:28.852 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Nota6, 
+Notas: []
+2026-10-19 11:54:28.853 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Nota7, 
+Notas: []
+2026-10-19 11:54:28.853 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Pepe, 
+Notas: [1.0, 3.5, 7.7]
+2026-10-19 11:54:28.853 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Marcos, 
+Notas: [2.0]
+2026-10-19 11:54:28.853 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Candela, 
+Notas: [10.0, 11.1]
+2026-10-19 11:54:40.900 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Nota1, 
+Notas: []
+2026-10-19 11:54:40.902 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Nota2, 
+Notas: []
+2026-10-19 11:54:40.902 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Nota3, 
+Notas: []
+2026-10-19 11:54:40.903 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Nota4, 
+Notas: []
+2026-10-19 11:54:40.903 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Nota5, 
+Notas: []
+2026-10-19 11:54:40.903 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Nota6, 
+Notas: []
+2026-10-19 11:54:40.903 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Nota7, 
+Notas: []
+2026-10-19 11:54:40.903 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Pepe, 
+Notas: [1.0, 3.5, 7.7]
+2026-10-19 11:54:40.903 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Marcos, 
+Notas: [2.0]
+2026-10-19 11:54:40.903 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Candela, 
+Notas: [10.0, 11.1]
+2026-10-19 11:55:18.962 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Pepe, 
+Notas: [1.0, 3.5, 7.7]
+2026-10-19 11:55:18.964 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Marcos, 
+Notas: [2.0]
+2026-10-19 11:55:18.964 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Candela, 
+Notas: [10.0, 11.1]

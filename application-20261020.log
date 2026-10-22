@@ -1,0 +1,9 @@
+2026-10-20 10:38:34.303 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Pepe, 
+Notas: [1.0, 3.5, 7.7]
+2026-10-20 10:38:34.305 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Marcos, 
+Notas: [2.0]
+2026-10-20 10:38:34.305 [main] DEBUG pruebasFicheros.controller.LeerNotas - 
+Alumno: Candela, 
+Notas: [10.0, 11.1]
