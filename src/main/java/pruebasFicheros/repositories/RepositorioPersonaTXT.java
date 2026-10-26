@@ -56,7 +56,7 @@ public class RepositorioPersonaTXT implements IRepositorioPersona {
 				}
 				personas.add(new Persona(nombre, notas));
 			}
-			
+			sc.close();
 			return personas;
 
 		} catch (FileNotFoundException e) {
@@ -99,8 +99,9 @@ public class RepositorioPersonaTXT implements IRepositorioPersona {
 
 	@Override
 	public void save(Persona persona) throws RepositorioException, IOException {
-		if (this.personas.size() == 0) {
-			this.personas.add(persona);
+		List<Persona> copia = this.personas;
+		if (copia.size() == 0) {
+			copia.add(persona);
 		}
 		else {
 			if (this.existsById(persona.getNombre())) {
@@ -109,17 +110,18 @@ public class RepositorioPersonaTXT implements IRepositorioPersona {
 				p.setNotas(persona.getNotas());
 			}
 			else {
-				this.personas.add(persona);
+				copia.add(persona);
 			}
 		}
 		
-		this.escribeFichero();
+		this.escribeFichero(copia);
+		this.personas = copia;
 	}
 	
-	public void escribeFichero() throws IOException {
+	public void escribeFichero(List<Persona> personas) throws IOException {
 		FileWriter writer = new FileWriter(this.fichero);
 		PrintWriter pw = new PrintWriter(writer);
-		for (Persona p : this.personas) {
+		for (Persona p : personas) {
 			pw.printf(Locale.ENGLISH, "%-10s", p.getNombre());
 			for (double nota : p.getNotas()) {
 				pw.printf(Locale.ENGLISH, "%6.2f", nota);
@@ -133,9 +135,11 @@ public class RepositorioPersonaTXT implements IRepositorioPersona {
 	public boolean deleteById(String nombre) throws RepositorioException, IOException {
 		if (this.existsById(nombre)) {
 			Persona p = this.findById(nombre);
-			this.personas.remove(p);
+			List<Persona> copia = this.personas;
+			copia.remove(p);
 			
-			this.escribeFichero();
+			this.escribeFichero(copia);
+			this.personas = copia;
 		}
 		
 		return false;

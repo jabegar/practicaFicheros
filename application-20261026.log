@@ -1,0 +1,17 @@
+2026-10-26 09:42:52.531 [main] DEBUG pruebasFicheros.controller.PersonaController - [
+Alumno: Juana, 
+Notas: [2.5, 10.0, 6.1], 
+Alumno: Pepe, 
+Notas: [7.0, 7.0, 8.1], 
+Alumno: Carlitos, 
+Notas: [6.5, 7.0, 4.1, 6.7]]
+2026-10-26 09:42:52.534 [main] DEBUG pruebasFicheros.controller.PersonaController - 
+-----------------------------------------------
+2026-10-26 09:42:52.535 [main] DEBUG pruebasFicheros.controller.PersonaController - [
+Alumno: Juana, 
+Notas: [2.5, 10.0, 6.1], 
+Alumno: Carlitos, 
+Notas: [10.0, 10.0, 10.0]]
+2026-10-26 09:42:52.535 [main] DEBUG pruebasFicheros.controller.PersonaController - 
+-----------------------------------------------
+2026-10-26 09:42:52.536 [main] DEBUG pruebasFicheros.controller.PersonaController - true
