@@ -1,0 +1,35 @@
+[
+  {
+    "identificador": "empleado21",
+    "nombreApellido": "Miguel Ramirez",
+    "edad": 34,
+    "empresa": "Su Empresa",
+    "domicilio": {
+      "calle": "Calle Principal",
+      "numero": 123,
+      "ciudad": "Ciudad Ejemplo"
+    }
+  },
+  {
+    "identificador": "empleado22",
+    "nombreApellido": "Pepito Perez",
+    "edad": 25,
+    "empresa": "Su Empresa",
+    "domicilio": {
+      "calle": "Calle Principal",
+      "numero": 123,
+      "ciudad": "Ciudad Ejemplo"
+    }
+  },
+  {
+    "identificador": "empleado23",
+    "nombreApellido": "Carla Dominguez",
+    "edad": 31,
+    "empresa": "Otra empresa",
+    "domicilio": {
+      "calle": "Calle Alejada",
+      "numero": 233,
+      "ciudad": "Ciudad 2"
+    }
+  }
+]
