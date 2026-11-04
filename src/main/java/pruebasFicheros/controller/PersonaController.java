@@ -10,33 +10,31 @@ import org.apache.logging.log4j.Logger;
 import pruebasFicheros.models.Persona;
 import pruebasFicheros.repositories.RepositorioException;
 import pruebasFicheros.repositories.RepositorioPersonaTXT;
+import pruebasFicheros.services.IServicioPersonas;
+import pruebasFicheros.services.ServicioPersonas;
 
 public class PersonaController {
 	static Logger logger = LogManager.getLogger(PersonaController.class);
 	
 	public static void main(String[] args) {
-		RepositorioPersonaTXT repo = new RepositorioPersonaTXT("src/main/resources/alumnos.txt");
-		try {
-			repo.save(new Persona("Juana", Arrays.asList(2.5, 10.0, 6.1)));
-			repo.save(new Persona("Pepe", Arrays.asList(7.0, 7.0, 8.1)));
-			repo.save(new Persona("Carlitos", Arrays.asList(6.5, 7.0, 4.1, 6.7)));
-			logger.debug(repo.findAll());
+		final String RUTA_DATOS = "src/main/resources/datos.txt";
+		IServicioPersonas sp = new ServicioPersonas(RUTA_DATOS);
+		sp.alta("Juana", Arrays.asList(2.5, 10.0, 6.1));
+		sp.alta("Pepe", Arrays.asList(7.0, 7.0, 8.1));
+		sp.alta("Carlitos", Arrays.asList(6.5, 7.0, 4.1, 6.7));
+		logger.debug(sp.listar().toString());
+		
+		logger.debug("\n-----------------------------------------------");
+	
+		sp.baja("Pepe");
+		sp.alta("Carlitos", Arrays.asList(10., 10.0, 10.0));
+		sp.modificarNotas("Carlitos", Arrays.asList(10., 10.0, 10.0));
+		logger.debug(sp.listar().toString());
 			
-			logger.debug("\n-----------------------------------------------");
+		logger.debug("\n-----------------------------------------------");
 			
-			repo.deleteById("Pepe");
-			repo.save(new Persona("Carlitos", Arrays.asList(10., 10.0, 10.0)));
-			logger.debug(repo.findAll());
-			
-			logger.debug("\n-----------------------------------------------");
-			
-			logger.debug(repo.existsById("Carlitos"));
-		} catch (RepositorioException e) {
-			logger.debug(e.getMessage());
-		} catch (IOException e) {
-			logger.debug(e.getMessage());
-		}
-
+		logger.debug(sp.buscar("Carlitos"));
+		logger.debug(sp.media(sp.buscar("Carlitos")));
 	}
 
 }

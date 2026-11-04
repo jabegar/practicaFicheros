@@ -1,0 +1,92 @@
+2026-11-04 22:22:54.295 [main] DEBUG pruebasFicheros.repositories.RepositorioPersonaTXT - src\main\resources\datos.txt (El sistema no puede encontrar el archivo especificado)
+2026-11-04 22:22:54.304 [main] DEBUG pruebasFicheros.repositories.RepositorioPersonaTXT - src\main\resources\datos.txt (El sistema no puede encontrar el archivo especificado)
+2026-11-04 22:22:54.309 [main] DEBUG pruebasFicheros.controller.PersonaController - [
+Alumno: Juana, 
+Notas: [2.5, 10.0, 6.1], 
+Alumno: Pepe, 
+Notas: [7.0, 7.0, 8.1], 
+Alumno: Carlitos, 
+Notas: [6.5, 7.0, 4.1, 6.7]]
+2026-11-04 22:22:54.310 [main] DEBUG pruebasFicheros.controller.PersonaController - 
+-----------------------------------------------
+2026-11-04 22:22:54.310 [main] ERROR pruebasFicheros.services.ServicioPersonas - Dato no valido: Ya existe: Carlitos
+2026-11-04 22:22:54.310 [main] DEBUG pruebasFicheros.controller.PersonaController - [
+Alumno: Juana, 
+Notas: [2.5, 10.0, 6.1], 
+Alumno: Carlitos, 
+Notas: [6.5, 7.0, 4.1, 6.7]]
+2026-11-04 22:22:54.310 [main] DEBUG pruebasFicheros.controller.PersonaController - 
+-----------------------------------------------
+2026-11-04 22:22:54.311 [main] DEBUG pruebasFicheros.controller.PersonaController - 
+Alumno: Carlitos, 
+Notas: [6.5, 7.0, 4.1, 6.7]
+2026-11-04 22:22:54.311 [main] DEBUG pruebasFicheros.controller.PersonaController - 6.075
+2026-11-04 22:23:30.273 [main] ERROR pruebasFicheros.services.ServicioPersonas - Dato no valido: Ya existe: Juana
+2026-11-04 22:23:30.276 [main] ERROR pruebasFicheros.services.ServicioPersonas - Dato no valido: Ya existe: Carlitos
+2026-11-04 22:23:30.276 [main] DEBUG pruebasFicheros.controller.PersonaController - [
+Alumno: Juana, 
+Notas: [2.5, 10.0, 6.1], 
+Alumno: Carlitos, 
+Notas: [6.5, 7.0, 4.1, 6.7], 
+Alumno: Pepe, 
+Notas: [7.0, 7.0, 8.1]]
+2026-11-04 22:23:30.276 [main] DEBUG pruebasFicheros.controller.PersonaController - 
+-----------------------------------------------
+2026-11-04 22:23:30.277 [main] ERROR pruebasFicheros.services.ServicioPersonas - Dato no valido: Ya existe: Carlitos
+2026-11-04 22:23:30.277 [main] DEBUG pruebasFicheros.controller.PersonaController - [
+Alumno: Juana, 
+Notas: [2.5, 10.0, 6.1], 
+Alumno: Carlitos, 
+Notas: [6.5, 7.0, 4.1, 6.7]]
+2026-11-04 22:23:30.277 [main] DEBUG pruebasFicheros.controller.PersonaController - 
+-----------------------------------------------
+2026-11-04 22:23:30.279 [main] DEBUG pruebasFicheros.controller.PersonaController - 
+Alumno: Carlitos, 
+Notas: [6.5, 7.0, 4.1, 6.7]
+2026-11-04 22:23:30.279 [main] DEBUG pruebasFicheros.controller.PersonaController - 6.075
+2026-11-04 22:23:52.074 [main] ERROR pruebasFicheros.services.ServicioPersonas - Dato no valido: Ya existe: Juana
+2026-11-04 22:23:52.078 [main] ERROR pruebasFicheros.services.ServicioPersonas - Dato no valido: Ya existe: Carlitos
+2026-11-04 22:23:52.079 [main] DEBUG pruebasFicheros.controller.PersonaController - [
+Alumno: Juana, 
+Notas: [2.5, 10.0, 6.1], 
+Alumno: Carlitos, 
+Notas: [6.5, 7.0, 4.1, 6.7], 
+Alumno: Pepe, 
+Notas: [7.0, 7.0, 8.1]]
+2026-11-04 22:23:52.079 [main] DEBUG pruebasFicheros.controller.PersonaController - 
+-----------------------------------------------
+2026-11-04 22:23:52.080 [main] ERROR pruebasFicheros.services.ServicioPersonas - Dato no valido: Ya existe: Carlitos
+2026-11-04 22:23:52.080 [main] DEBUG pruebasFicheros.controller.PersonaController - [
+Alumno: Juana, 
+Notas: [2.5, 10.0, 6.1], 
+Alumno: Carlitos, 
+Notas: [6.5, 7.0, 4.1, 6.7]]
+2026-11-04 22:23:52.080 [main] DEBUG pruebasFicheros.controller.PersonaController - 
+-----------------------------------------------
+2026-11-04 22:23:52.080 [main] DEBUG pruebasFicheros.controller.PersonaController - 
+Alumno: Carlitos, 
+Notas: [6.5, 7.0, 4.1, 6.7]
+2026-11-04 22:23:52.080 [main] DEBUG pruebasFicheros.controller.PersonaController - 6.075
+2026-11-04 22:24:40.469 [main] ERROR pruebasFicheros.services.ServicioPersonas - Dato no valido: Ya existe: Juana
+2026-11-04 22:24:40.473 [main] ERROR pruebasFicheros.services.ServicioPersonas - Dato no valido: Ya existe: Carlitos
+2026-11-04 22:24:40.473 [main] DEBUG pruebasFicheros.controller.PersonaController - [
+Alumno: Juana, 
+Notas: [2.5, 10.0, 6.1], 
+Alumno: Carlitos, 
+Notas: [6.5, 7.0, 4.1, 6.7], 
+Alumno: Pepe, 
+Notas: [7.0, 7.0, 8.1]]
+2026-11-04 22:24:40.473 [main] DEBUG pruebasFicheros.controller.PersonaController - 
+-----------------------------------------------
+2026-11-04 22:24:40.475 [main] ERROR pruebasFicheros.services.ServicioPersonas - Dato no valido: Ya existe: Carlitos
+2026-11-04 22:24:40.475 [main] DEBUG pruebasFicheros.controller.PersonaController - [
+Alumno: Juana, 
+Notas: [2.5, 10.0, 6.1], 
+Alumno: Carlitos, 
+Notas: [10.0, 10.0, 10.0]]
+2026-11-04 22:24:40.475 [main] DEBUG pruebasFicheros.controller.PersonaController - 
+-----------------------------------------------
+2026-11-04 22:24:40.476 [main] DEBUG pruebasFicheros.controller.PersonaController - 
+Alumno: Carlitos, 
+Notas: [10.0, 10.0, 10.0]
+2026-11-04 22:24:40.476 [main] DEBUG pruebasFicheros.controller.PersonaController - 10.0

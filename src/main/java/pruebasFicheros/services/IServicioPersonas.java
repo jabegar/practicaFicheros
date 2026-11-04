@@ -1,8 +1,10 @@
 package pruebasFicheros.services;
 
+import java.io.IOException;
 import java.util.List;
 
 import pruebasFicheros.models.Persona;
+import pruebasFicheros.repositories.RepositorioException;
 
 public interface IServicioPersonas {
 	public List<Persona> listar();

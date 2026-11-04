@@ -140,6 +140,8 @@ public class RepositorioPersonaTXT implements IRepositorioPersona {
 			
 			this.escribeFichero(copia);
 			this.personas = copia;
+			
+			return true;
 		}
 		
 		return false;
