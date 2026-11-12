@@ -43,7 +43,7 @@ public class EmpleadoController {
 		FileWriter fichero = null;
 		try {
 			fichero = new FileWriter(ruta, true);
-			Gson gson = new GsonBuilder().setPrettyPrinting().create();
+			Gson gson = new GsonBuilder().setPrettyPrinting().setDateFormat("dd/MM/yyyy").create();
 			String json = gson.toJson(empleados);
 			fichero.write(json);
 		} catch (IOException e) {
