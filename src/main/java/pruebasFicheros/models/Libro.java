@@ -5,6 +5,7 @@ public class Libro {
 	private String categoria;
 	private String titulo;
 	private String autor;
+	private Editorial editorial;
 	
 	public Libro(String titulo) {
 		super();
@@ -48,10 +49,18 @@ public class Libro {
 	public void setAutor(String autor) {
 		this.autor = autor;
 	}
+	
+	public Editorial getEditorial() {
+		return this.editorial;
+	}
+	
+	public void setEditorial(Editorial editorial) {
+		this.editorial = editorial;
+	}
 
 	@Override
 	public String toString() {
-		return "Libro [id=" + id + ", categoria=" + categoria + ", titulo=" + titulo + ", autor=" + autor + "]";
+		return "Libro [id=" + id + ", categoria=" + categoria + ", titulo=" + titulo + ", autor=" + autor + ", editorial=" + editorial + "]";
 	}
 	
 	

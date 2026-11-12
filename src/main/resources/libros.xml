@@ -3,10 +3,18 @@
 	<libro id="1" categoria="novela">
 		<titulo>El Quijote</titulo>
 		<autor>Miguel de Cervantes</autor>
+		<editorial>
+			<nombre>Clasicos del mundo</nombre>
+			<cif>12341234F</cif>
+		</editorial>
 	</libro>
 	<libro id="1" categoria="novela">
 		<titulo>Mistborn</titulo>
 		<autor>Brandon Sanderson</autor>
+		<editorial>
+			<nombre>Fantasia para todos</nombre>
+			<cif>56785678G</cif>
+		</editorial>
 	</libro>
 	
 </libros>

@@ -44,7 +44,15 @@ public class UtilesDomXML {
     	libro.setAutor(raiz.getElementsByTagName("autor").item(0).getTextContent());
     	libro.setCategoria(raiz.getAttribute("categoria"));
     	libro.setId(raiz.getAttribute("id"));
+    	libro.setEditorial(this.fromElement2Editorial((Element) raiz.getElementsByTagName("editorial").item(0)));
     	return libro;
+    }
+    
+    public Editorial fromElement2Editorial(Element raiz) {
+    	Editorial editorial = new Editorial();
+    	editorial.setNombre(raiz.getElementsByTagName("nombre").item(0).getTextContent());
+    	editorial.setCif(raiz.getElementsByTagName("cif").item(0).getTextContent());
+    	return editorial;
     }
     
     public List<Libro> leerLibrosDesdeXML(Element raiz) {
