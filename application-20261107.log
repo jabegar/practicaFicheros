@@ -1,0 +1,3 @@
+2026-11-07 18:56:06.446 [main] DEBUG pruebasFicheros.controller.EmpleadoController - Empleado [identificador=empleado21, nombreApellido=Miguel Ramirez, edad=34, empresa=Su Empresa domicilio=pruebasFicheros.models.Domicilio@69e153c5]
+2026-11-07 18:56:06.449 [main] DEBUG pruebasFicheros.controller.EmpleadoController - Empleado [identificador=empleado22, nombreApellido=Pepito Perez, edad=25, empresa=Su Empresa domicilio=pruebasFicheros.models.Domicilio@2034b64c]
+2026-11-07 18:56:06.450 [main] DEBUG pruebasFicheros.controller.EmpleadoController - Empleado [identificador=empleado23, nombreApellido=Carla Dominguez, edad=31, empresa=Otra empresa domicilio=pruebasFicheros.models.Domicilio@75d3a5e0]

@@ -11,9 +11,9 @@ public class Empleado {
 	public Empleado (String nombreApellido, String empresa, Puesto puesto) {
 		this.nombreApellido = nombreApellido;
 		this.empresa = empresa;
+		this.puesto = puesto;
 	}
-	public Empleado(String identificador, String nombreApellido, int edad, String empresa,
-			Puesto puesto /* , Domicilio domicilio */) {
+	public Empleado(String identificador, String nombreApellido, int edad, String empresa, Puesto puesto /* , Domicilio domicilio */) {
 		super();
 		this.identificador = identificador;
 		this.nombreApellido = nombreApellido;

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<empleados>
+	<empleado id="E001">
+		<nombreApellido>Juan García López</nombreApellido>
+		<empresa>Google</empresa>
+		<edad>41</edad>
+		<puesto id="P001">
+			<nombre>Desarrollador</nombre>
+			<salario>25000</salario>
+			<departamento>Software</departamento>
+		</puesto>
+	</empleado>
+	<empleado>
+		<nombreApellido>María Sánchez Pérez</nombreApellido>
+		<empresa>Microsoft</empresa>
+		<edad>0</edad>
+		<puesto id="P002">
+			<nombre>Directora</nombre>
+			<salario>45000</salario>
+			<departamento>General</departamento>
+		</puesto>
+	</empleado>
+	<empleado id="E002">
+		<nombreApellido>Carlos Rodríguez</nombreApellido>
+		<empresa>Amazon</empresa>
+		<edad>28</edad>
+		<puesto>
+			<nombre>Programador</nombre>
+			<salario>30000</salario>
+		</puesto>
+	</empleado>
+	<empleado id="E003">
+		<nombreApellido>Lucía Fernández</nombreApellido>
+		<empresa>Apple</empresa>
+		<edad>35</edad>
+		<puesto>
+			<nombre>Gerente</nombre>
+			<salario>40000</salario>
+		</puesto>
+	</empleado>
+	<empleado id="E004">
+		<nombreApellido>Pedro Martínez</nombreApellido>
+		<empresa>IBM</empresa>
+		<edad>42</edad>
+		<puesto>
+			<nombre>Administrador</nombre>
+			<salario>32000</salario>
+		</puesto>
+	</empleado>
+</empleados>

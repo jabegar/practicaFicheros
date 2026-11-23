@@ -10,6 +10,15 @@ public class Puesto {
 		this.nombre = nombre;
 		this.salario = salario;
 	}
+	
+	public Puesto(String identificador, String nombre, String departamento, int salario) {
+		super();
+		this.identificador = identificador;
+		this.nombre = nombre;
+		this.departamento = departamento;
+		this.salario = salario;
+	}
+
 
 	public String getIdentificador() {
 		return identificador;
