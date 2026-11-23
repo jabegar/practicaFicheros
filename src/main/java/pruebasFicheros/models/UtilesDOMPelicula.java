@@ -52,7 +52,6 @@ public class UtilesDOMPelicula {
 		Pelicula p = null;
 		String titulo = item.getElementsByTagName("Titulo").item(0).getTextContent();
 		p = new Pelicula(titulo);
-		
 
 		if (item.getElementsByTagName("Duracion").getLength() > 0) {			
 			int duracion = Integer.parseInt(item.getElementsByTagName("Duracion").item(0).getTextContent());

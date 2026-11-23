@@ -9,7 +9,7 @@ import org.w3c.dom.Document;
 import pruebasFicheros.models.Pelicula;
 import pruebasFicheros.models.UtilesDOMPelicula;
 
-public class PeliculaXMLRepository {
+public class PeliculaXMLRepository implements IPeliculaXMLRepository {
 	private static final String RUTA_RESOURCES = "src/main/resources/";
 	List<Pelicula> peliculas;
 	File bdd;
@@ -21,12 +21,17 @@ public class PeliculaXMLRepository {
 		this.udx = new UtilesDOMPelicula();
 	}
 	
+	@Override
 	public List<Pelicula> findAll() {
+		this.cargaSiHaceFalta();
+		
+		return this.peliculas;
+	}
+	
+	private void cargaSiHaceFalta() {
 		if (this.peliculas == null || this.peliculas.isEmpty()) {
 			Document doc = this.udx.getDocumentFromXML(bdd);
 			this.peliculas = this.udx.leerPeliculas(doc.getDocumentElement());
 		}
-		
-		return this.peliculas;
 	}
 }

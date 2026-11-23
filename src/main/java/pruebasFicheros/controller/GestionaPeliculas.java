@@ -6,12 +6,13 @@ import org.w3c.dom.Document;
 
 import pruebasFicheros.models.Pelicula;
 import pruebasFicheros.models.UtilesDOMPelicula;
-import pruebasFicheros.repositories.PeliculaXMLRepository;
+import pruebasFicheros.services.IServicioPelicula;
+import pruebasFicheros.services.ServicioPelicula;
 
 public class GestionaPeliculas {
 
 	public static void main(String[] args) {
-		PeliculaXMLRepository repo = new PeliculaXMLRepository("peliculas.xml");
-		System.out.println(repo.findAll());
+		IServicioPelicula service = new ServicioPelicula("peliculas.xml");
+		System.out.println(service.findAll());
 	}
 }
